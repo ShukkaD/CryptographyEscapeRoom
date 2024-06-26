@@ -1,0 +1,90 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0e1628;
+  color: #f5f9fc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: #1c2333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], button {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  outline: none;
+  background-color: #2b374d;
+  color: #f5f9fc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3c4b63;
+}
+
+#storyContainer {
+  display: none;
+}
+
+#storyText {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+#nextStageForm {
+  display: none;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  input[type="text"], input[type="password"], button {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+
+  #nextStageForm {
+    align-items: flex-start;
+  }
+
+  #passcode {
+    margin-top: 8px;
+  }
+}

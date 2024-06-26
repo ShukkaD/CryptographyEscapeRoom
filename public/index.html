@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Game</h1>
+    <form id="startForm">
+      <label for="name">Enter your name:</label>
+      <input type="text" id="name" name="name" required>
+      <button type="submit">Start</button>
+    </form>
+    <div id="storyContainer">
+      <p id="storyText"></p>
+      <form id="nextStageForm">
+        <label for="passcode">Enter passcode:</label>
+        <input type="text" id="passcode" name="passcode" required>
+        <button type="submit">Next Stage</button>
+      </form>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
