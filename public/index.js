@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const name = document.getElementById('name').value;
   
     try {
-      const response = await fetch('http://localhost:3000/start', { //Change localhost to Public IP Address
+      const response = await fetch('https://something/start', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name })
@@ -33,9 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
     event.preventDefault();
     const name = document.getElementById('name').value;
     const passcode = passcodeInput.value;
-  
+  //Wherever it says a link, if it says "something", then replace that something with the real url to your website.
     try {
-      const response = await fetch('http://localhost:3000/next', {
+      const response = await fetch('https://something/next', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, passcode })
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         storyText.textContent = data.story;
         passcodeInput.value = '';
         // Hide the form if the final stage is reached
-        if (data.story.includes('final defense')) {
+        if (data.story.includes('YAY')) {
           nextStageForm.style.display = 'none';
         }
       } else {
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
 
-  const apiUrl = 'http://localhost:3000'; // Update with your server URL
+  const apiUrl = 'https://something'; // Update with your server URL
   const updateInterval = 5000; // Check for new messages every 5 seconds
 
   function startPollingForMessages(name) {
