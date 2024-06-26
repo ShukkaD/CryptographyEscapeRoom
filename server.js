@@ -24,7 +24,7 @@ const stages = [
   { stageNumber: 2, story: 'Well, wow, I guess you aren’t as bad as I thought at ciphers. Here\'s a clue: You must look around for a paper, here you will see that 8 is used for the second part. Decode this: 42/34/44/11/44/24/33/22', passcode: 'rotating' },
   { stageNumber: 3, story: 'Wow, you\'re doing pretty good but you probably won\’t get past this one. Just look for a note like the one from the first part, and the cipher will be revealed to you. Decode this: vniiolauls', passcode: 'villainous' },
   { stageNumber: 4, story: 'Alright, you have to stop cracking our codes. How did you even get here that fast! I can’t let you solve this one in time.  Decode this: Lvtlxk', passcode: 'potato' },
-  { stageNumber: 5, story: 'You got here! Wha-wha-what, impossible, but you\'ll never be able to make it past the final defense. Enter this url into the your browser(keep this tab open or you will lose your progress): \n https://shukkad.github.io/JumpyNuclearWeb/', passcode: 'nothing'}
+  { stageNumber: 5, story: 'You got here! Wha-wha-what, impossible, but you\'ll never be able to make it past the final defense. Enter this url into the your browser(keep this tab open or you will lose your progress): \n https://bit.ly/jumpy', passcode: 'nothing'}
 ];
 
 function readUsers() {
@@ -80,7 +80,7 @@ app.post('/next', (req, res) => {
       user.stage++;
       writeUsers(users);
       const nextStage = stages[user.stage - 1];
-      res.send({ success: true, story: nextStage ? nextStage.story : 'YAY!! You won and saved everyone! You and your coworkers have definitely bonded over this experience and are definitely ready for the next time the power plant gets hacked - Wait what!? \n Your boss calls you and tells you that for your hard work, you have earned a prize! Type this link into the address bar to claim your prize: \n https://bit.ly/4eDwL0u' });
+      res.send({ success: true, story: nextStage ? nextStage.story : 'YAY!! You won and saved everyone! You and your coworkers have definitely bonded over this experience and are definitely ready for the next time the power plant gets hacked - Wait what!? \n Your boss calls you and tells you that for your hard work, you have earned a prize! Type this link into the address bar to claim your prize: \n https://bit.ly/goprize' });
     } else {
       res.send({ success: false, message: 'Incorrect password' });
     }
