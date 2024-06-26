@@ -80,7 +80,7 @@ app.post('/next', (req, res) => {
       user.stage++;
       writeUsers(users);
       const nextStage = stages[user.stage - 1];
-      res.send({ success: true, story: nextStage ? nextStage.story : 'YAY!! You won and saved everyone! You and your coworkers have definitely bonded over this experience and are definitely ready for the next time the power plant gets hacked - Wait what!? \n Your boss calls you and tells you that for your hard work, you have earned a prize! Type this link into the address bar to claim your prize: \n https://tinyurl.com/finishprize' });
+      res.send({ success: true, story: nextStage ? nextStage.story : 'YAY!! You won and saved everyone! You and your coworkers have definitely bonded over this experience and are definitely ready for the next time the power plant gets hacked - Wait what!? \n Your boss calls you and tells you that for your hard work, you have earned a prize! Type this link into the address bar to claim your prize: \n https://bit.ly/4eDwL0u' });
     } else {
       res.send({ success: false, message: 'Incorrect password' });
     }
