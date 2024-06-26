@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     event.preventDefault();
     const name = document.getElementById('name').value;
     const passcode = passcodeInput.value;
-  //Wherever it says a link, if it says "something", then replace that something with the real url to your website.
+  //Wherever it says a link, if it says "something", then replace that something with the real url to your website. If it says something at the end (an endpoint) like /next or /start, don't remove it.
     try {
       const response = await fetch('https://something/next', {
         method: 'POST',
