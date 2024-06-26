@@ -6,4 +6,4 @@ Link endings (endpoints):
 (For Hosters): /dashboard (Shows all game information)
 (For Hosters): /users (Shows all users and allows you to manage them or message them)
 /start (Starting page)
-/next (Brings you to the next page)
+/next (Brings you to the next page).
