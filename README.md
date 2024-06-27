@@ -9,7 +9,9 @@ Some hackers were able to exploit this and now they have gained complete control
 and restart the system. Can you do it?
 
 Errors: 
-(For Hosters) If there is an error saying that password is incorrect when you know the password is correct, just redownload the files and rehost it.
+(For Hosters) If there is an error saying that password is incorrect when you know the password is correct, just delete/kick all users and try it again. MAKE SURE THAT THE SAME NAME IS NOT USED TWICE OR ELSE IT WILL LEAD TO THIS ERROR. If that does not fix it, then you will have to stop hosting the website and download fresh copies of the files and rehost the fresh copies.
+
+AT THE END OF THE GAME, REMEMBER TO DELETE/KICK ALL USERS OR ELSE IT WILL LEAD TO ERRORS IN THE FUTURE. ALSO MAKE SURE THAT NOBODY USES THE SAME NAME TWICE IN ONE GAME SESSION OR ELSE IT WILL LEAD TO ERRORS.
 
 Link endings (endpoints):
 (For Hosters): /dashboard.html (Dashboard to track progress in the escape room)
