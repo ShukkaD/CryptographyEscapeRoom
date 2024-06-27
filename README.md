@@ -11,7 +11,7 @@ and restart the system. Can you do it?
 Errors: 
 (For Hosters) If there is an error saying that password is incorrect when you know the password is correct, just delete/kick all users from the dashboard or the users.json file and try it again. MAKE SURE THAT THE SAME NAME IS NOT USED TWICE OR ELSE IT WILL LEAD TO THIS ERROR. If that does not fix it, then you will have to stop hosting the website and download fresh copies of the files and rehost the fresh copies.
 
-AT THE END OF THE GAME, REMEMBER TO DELETE/KICK ALL USERS  FROM THE DASHBOARD OR THE USERS.JSON FILE OR ELSE IT WILL LEAD TO ERRORS IN THE FUTURE. ALSO MAKE SURE THAT NOBODY USES THE SAME NAME TWICE IN ONE GAME SESSION OR ELSE IT WILL LEAD TO ERRORS.
+AT THE END OF THE GAME, REMEMBER TO DELETE/KICK ALL USERS  FROM THE DASHBOARD OR REMOVE EVERYTHING IN THE USERS.JSON FILE (DON'T DELETE THE FILE ITSELF, JUST DELETE EVERYTHING IN IT) OR ELSE IT WILL LEAD TO ERRORS IN THE FUTURE. ALSO MAKE SURE THAT NOBODY USES THE SAME NAME TWICE IN ONE GAME SESSION OR ELSE IT WILL LEAD TO ERRORS.
 
 Link endings (endpoints):
 (For Hosters): /dashboard.html (Dashboard to track progress in the escape room)
