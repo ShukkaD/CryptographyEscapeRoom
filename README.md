@@ -9,7 +9,15 @@ Some hackers were able to exploit this and now they have gained complete control
 and restart the system. Can you do it?
 
 Link endings (endpoints):
-(For Hosters): /dashboard (Shows all game information)
-(For Hosters): /users (Shows all users and allows you to manage them or message them)
-/start (Starting page)
-/next (Brings you to the next page).
+(For Hosters): /dashboard.html (Dashboard to track progress in the escape room)
+(For Hosters): /users (Shows all users)
+(For Hosters): /kick (Kicks users)
+(For Hosters): /get-messages (Gets all messages)
+(For Hosters): /send-messages 
+
+(For Developers): /dashboard (Endpoint for other applications to use)
+(For Developers): /start (In-Code link for game start)
+(For Developers): /next (In-Code link for next page in game)
+
+(For Players): /index.html (Main game page)
+
