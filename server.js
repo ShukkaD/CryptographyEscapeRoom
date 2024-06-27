@@ -24,7 +24,7 @@ const stages = [
   { stageNumber: 2, story: 'Well, wow, I guess you aren’t as bad as I thought at ciphers. Here\'s a clue: You must look around for a paper, here you will see that 8 is used for the second part. Decode this: 42/34/44/11/44/24/33/22', passcode: 'sixthisthird' },
   { stageNumber: 3, story: 'Wow, you\'re doing pretty good but you probably won\’t get past this one. Just look for a note like the one from the first part (get off of the rails!), and the cipher will be revealed to you. Decode this: fut sfutorhi orh', passcode: 'fourth is fourth' },
   { stageNumber: 4, story: 'Alright, you have to stop cracking our codes. How did you even get here that fast! I can’t let you solve this one in time.  Decode this: xryriyxsl (keyword: poke)', passcode: 'idontknow' },
-  { stageNumber: 5, story: 'You got here! Wha-wha-what, impossible, but you\'ll never be able to make it past the final defense. Enter this url into the your browser(keep this tab open or you will lose your progress): \n https://bit.ly/jumpy', passcode: 'nothing'}
+  { stageNumber: 5, story: 'You got here! Wha-wha-what, impossible, but you\'ll never be able to make it past the final defense. Enter this URL into the your browser(keep this tab open or you will lose your progress): \n https://bit.ly/jumpy', passcode: 'nothing'}
 ];
 
 function readUsers() {
