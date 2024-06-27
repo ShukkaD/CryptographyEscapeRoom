@@ -8,6 +8,9 @@ but if not implemented properly, could lead to security issues. Sadly, the team 
 Some hackers were able to exploit this and now they have gained complete control over the mainframe! They messed up all the systems and you have anout 25 minutes before the entire power plant explodes! You must get into the mainframe, break past the hacker's security measures by decrypting their passwords and solving riddles,
 and restart the system. Can you do it?
 
+Errors: 
+(For Hosters) If there is an error saying that password is incorrect when you know the password is correct, just redownload the files and rehost it.
+
 Link endings (endpoints):
 (For Hosters): /dashboard.html (Dashboard to track progress in the escape room)
 (For Hosters): /users (Shows all users)
