@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
   startForm.addEventListener('submit', async (event) => {
     event.preventDefault();
     const name = document.getElementById('name').value;
-  
+
+    //Anywhere that there is a link that says something, replace something with your actual link to the website. Make sure that if there is an ending (an endpoint) like /start or /next in the URL, that you don't remove it.
+    
     try {
       const response = await fetch('https://something/start', {
         method: 'POST',
